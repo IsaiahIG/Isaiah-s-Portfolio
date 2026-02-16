@@ -8,14 +8,10 @@ export default function Projects() {
           <h1 className="text-4xl  tracking-widest  font-mono  text-fuchsia-700 ">Projects</h1>
         </div>
 
-        {/* Cards container */}
         <div className="flex flex-wrap gap-8">
-          {/* === COPY/PASTE THIS CARD FOR EACH PROJECT === */}
           <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
-            {/* Image area */}
             <div className="aspect-video bg-neutral-900">
-              {/* Replace this placeholder with an image if you want */}
-              {/* <img src="/your-image.png" alt="Portfolio Website" className="h-full w-full object-cover" /> */}
+              <img src="Portfolio.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
             </div>
 
             {/* Content */}
@@ -23,7 +19,7 @@ export default function Projects() {
               <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
 
               <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
-                Portfolio Website
+                Isaiah's Portfolio
               </h3>
 
               <p className="mt-3 text-lg leading-relaxed text-neutral-300">
@@ -56,8 +52,7 @@ export default function Projects() {
           <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             {/* Image area */}
             <div className="aspect-video bg-neutral-900">
-              {/* Replace this placeholder with an image if you want */}
-              {/* <img src="/your-image.png" alt="Portfolio Website" className="h-full w-full object-cover" /> */}
+               <img src="rpp.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
             </div>
 
             {/* Content */}
@@ -99,8 +94,7 @@ export default function Projects() {
           <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             {/* Image area */}
             <div className="aspect-video bg-neutral-900">
-              {/* Replace this placeholder with an image if you want */}
-              {/* <img src="/your-image.png" alt="Portfolio Website" className="h-full w-full object-cover" /> */}
+              <img src="/tradelog.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
             </div>
 
             {/* Content */}
@@ -122,7 +116,7 @@ export default function Projects() {
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
                 >
-                  Demo / WIP
+                    Comming Soon
                 </a>
 
                 <a
@@ -150,11 +144,11 @@ export default function Projects() {
               <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
 
               <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
-                Our Galaxy
+                Adrian's Portfolio 
               </h3>
 
               <p className="pt-3 text-md leading-relaxed text-neutral-300">
-                 A application designed for users to learn about any object outside of the Eathers Hemisphere.
+                 Freelance Portfolio website for a Friend
               </p>
 
               <div className="pt-6 flex items-center gap-4">
@@ -164,7 +158,7 @@ export default function Projects() {
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
                 >
-                  Demo / WIP
+                  Comming Soon
                 </a>
 
                 <a
