@@ -24,7 +24,7 @@ export default function Certifications() {
                           CodePath — CYB101: Intro to Cybersecurity
                         </h2>
 
-                        <p className="text-mono text-gray-300 text-md">
+                        <div className="text-mono text-gray-300 text-md">
                           <div className="space-y-3">
                             <ul className="space-y-1">
                               <h1 className="text-md font text-fuchsia-700 font-mono ">
@@ -47,7 +47,7 @@ export default function Certifications() {
                               <li>Wireshark, Splunk, metasploit, Linux, OSINT</li>
                             </ul>
                           </div>
-                        </p>
+                        </div>
 
                         <div className="p-2 w-35 font-bold text-md rounded-full flex items-center justify-center bg-neutral-800 border border-neutral-700 font-mono text-fuchsia-700 tracking-widest">
                           10 Weeks
@@ -91,7 +91,7 @@ export default function Certifications() {
                           CodePath — CYB102: Intermediate Cybersecurity
                         </h2>
 
-                        <p className="text-mono text-gray-300 text-md">
+                        <div className="text-mono text-gray-300 text-md">
                           <div className="space-y-3">
                             <ul className="space-y-1">
                               <h1 className="text-md font text-fuchsia-700 font-mono ">
@@ -112,9 +112,9 @@ export default function Certifications() {
                               <li>Wireshark, Splunk, Catalyst, Linux, OSINT</li>
                             </ul>
                           </div>
-                        </p>
+                        </div>
 
-                        <div className="p-2 w-35 font-bold text-md rounded-full flex items-center justify-center bg-neutral-800 border border-neutral-700 font-mono text-fuchsia-700 tracking-widest">
+                        <div className="p-2  w-35 font-bold text-md rounded-full flex items-center justify-center bg-neutral-800 border border-neutral-700 font-mono text-fuchsia-700 tracking-widest">
                           10 Weeks
                         </div>
                       </div>
@@ -156,7 +156,7 @@ export default function Certifications() {
                           CodePath — A110: Foundations Of AI Engineering
                         </h2>
 
-                        <p className="text-mono text-gray-300 text-md">
+                        <div className="text-mono text-gray-300 text-md">
                           <div className="space-y-3">
                             <ul className="space-y-1">
                               <h1 className="text-md font text-fuchsia-700 font-mono ">
@@ -175,7 +175,7 @@ export default function Certifications() {
                               <li>Comming Soon</li>
                             </ul>
                           </div>
-                        </p>
+                        </div>
 
                         <div className="p-2 w-35 font-bold text-md rounded-full flex items-center justify-center bg-neutral-800 border border-neutral-700 font-mono text-fuchsia-700 tracking-widest">
                           WIP

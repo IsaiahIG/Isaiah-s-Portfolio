@@ -28,7 +28,7 @@ export default function Projects() {
 
               <div className="mt-6 flex items-center gap-4">
                 <a
-                  href="https://yoursite.com"
+                  href="https://isaiahig.com"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-extrabold text-fuchsia-700 transition font-mono hover:bg-white/15"
@@ -37,7 +37,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/yourname/yourrepo"
+                  href="https://github.com/IsaiahIG/Isaiah-s-portfolio"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono  hover:bg-white/15"
@@ -50,12 +50,10 @@ export default function Projects() {
 
 
           <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
-            {/* Image area */}
             <div className="aspect-video bg-neutral-900">
-               <img src="rpp.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
+               <img src="rpp.png" alt="Portfolio Website" className="h-full w-full object-fill " /> 
             </div>
 
-            {/* Content */}
             <div className="p-6">
               <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
 
@@ -69,7 +67,7 @@ export default function Projects() {
 
               <div className="pt-6 flex items-center gap-4">
                 <a
-                  href="https://yoursite.com"
+                  href="https://drive.google.com/file/d/16I6GV69U-dsn0tulfODAi9CJkxWhGGB9/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
@@ -78,7 +76,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/yourname/yourrepo"
+                  href="https://github.com/Niraj-Dhakall/4-4-7-proj"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono  hover:bg-white/15"
@@ -106,7 +104,7 @@ export default function Projects() {
               </h3>
 
               <p className="pt-3 text-md leading-relaxed text-neutral-300">
-                 A application designed to save user Market Trades for further use either taxes or bank information.
+                 A application designed to save user Market Trades for future use.
               </p>
 
               <div className="pt-6 flex items-center gap-4">
