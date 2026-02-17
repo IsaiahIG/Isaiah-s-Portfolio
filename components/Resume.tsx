@@ -4,6 +4,8 @@ import { IoBriefcaseOutline } from "react-icons/io5";
 import { LuGraduationCap } from "react-icons/lu";
 
 export default function Resume() {
+ 
+
   return (
     <section className="lg:min-h-screen bg-neutral-900 flex lg:p-5 px-1 overflow-x-hidden py-3">
       <div className="w-full mx-auto max-w-4xl xl:max-w-5xl 2xl:max-w-6xl">

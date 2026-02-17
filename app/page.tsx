@@ -40,7 +40,6 @@ export default function Home() {
       <div className="mx-auto max-w-7xl 2xl:max-w-7xl px-4 2xl:px-1 lg:px-10 pt-12 pb-14 flex flex-col 2xl:flex-row lg:flex-row gap-10 2xl:space-x-55 lg:gap-5 py-1 2xl:items-stretch lg:items-stretch">
         <aside className="lg:w-69 2xl:w-30 shrink-0">
           <div className="lg:fixed 2xl:fixed 2xl:w-80 lg:w-67 bg-neutral-900 border-white/30 border rounded-3xl lg:h-147 2xl:h-292 overflow-hidden">
-            {/* Mobile compact header (Abhinav-style) */}
             <div className="lg:hidden relative px-4 py-3">
               <div className="flex items-center gap-3 pr-12">
                 <img
@@ -49,10 +48,10 @@ export default function Home() {
                   alt="a photo of me"
                 />
                 <div className="min-w-0">
-                  <p className="font-mono font-bold tracking-widest text-neutral-100 truncate">
+                  <p className="font-mono font-bold tracking-widest text-gray-200 truncate">
                     Isaiah Ghansam
                   </p>
-                  <span className="inline-flex mt-1 px-3 py-1 text-xs tracking-widest rounded-full bg-neutral-800/70 border border-neutral-700 text-neutral-100">
+                  <span className="inline-flex mt-1 px-3 py-1 text-xs tracking-widest rounded-full bg-neutral-800/70 border border-neutral-700 text-gray-200">
                     Software Developer
                   </span>
                 </div>
@@ -73,7 +72,6 @@ export default function Home() {
               </button>
             </div>
 
-            {/* Collapsible details on mobile; full panel on desktop */}
             <div
               id="mobile-profile"
               className={`${mobileProfileOpen ? "block" : "hidden"} lg:block`}
@@ -87,11 +85,11 @@ export default function Home() {
                   />
                 </div>
 
-                <h1 className="hidden lg:block text-xl font-bold tracking-widest text-center font-mono">
+                <h1 className="hidden lg:block text-xl text-gray-200 font-bold tracking-widest text-center font-mono">
                   Isaiah Ghansam
                 </h1>
 
-                <p className="hidden lg:block text-md text-center p-2 tracking-widest rounded-2xl shadow-2xl border-2 border-neutral-800 bg-fuchsia-800">
+                <p className="hidden lg:block text-md  text-gray-200 text-center p-2 tracking-widest rounded-2xl shadow-2xl border-2 border-neutral-800 bg-fuchsia-800">
                   Software Developer
                 </p>
 
@@ -104,8 +102,8 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex gap-3"
                 >
-                  <span className="grid place-items-center size-9 lg:size-10 rounded-lg bg-neutral-800/60 border border-neutral-700">
-                    <IoIosMail className="text-2xl lg:text-4xl text-gray-200" />
+                  <span className="grid place-items-center size-9 lg:size-11 rounded-lg hover:bg-neutral-800  transition-all hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 ">
+                    <IoIosMail className="text-2xl lg:text-4xl " />
                   </span>
 
                   <div className="leading-tight min-w-0">
@@ -124,8 +122,8 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex gap-3"
                 >
-                  <span className="grid place-items-center size-9 lg:size-10 rounded-lg bg-neutral-800/60 border border-neutral-700">
-                    <CiLocationOn className="text-2xl lg:text-4xl" />
+                  <span className="grid place-items-center  size-9 lg:size-11 rounded-lg hover:bg-neutral-800   transistion-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-neutral-800">
+                    <CiLocationOn className="text-2xl   lg:text-4xl" />
                   </span>
 
                   <div className="leading-tight min-w-0">
@@ -143,7 +141,7 @@ export default function Home() {
                     href="https://www.linkedin.com/in/isaiah-ghansam-5a97832b4/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-md hover:bg-neutral-800"
+                    className="p-2 rounded-md hover:bg-neutral-800 hover:shadow-2xl hover:shadow-neutral-800 hover:-translate-y-1 transition-all"
                   >
                     <CiLinkedin className="size-7 lg:size-8" />
                   </a>
@@ -152,7 +150,7 @@ export default function Home() {
                     href="https://github.com/IsaiahIG"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-md hover:bg-neutral-800"
+                    className="p-2 rounded-md hover:bg-neutral-800 hover:bg-neutral hover:shadow-2xl hover:shadow-neutral-800 transition-all hover:-translate-y-1"
                   >
                     <FaGithub className="size-6 lg:size-7" />
                   </a>
@@ -161,7 +159,7 @@ export default function Home() {
                     href="Isaiahs_Updated_resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-md p-2 hover:bg-neutral-800"
+                    className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1   hover:shadow-neutral-800 transition-all"
                   >
                     <FaRegFileAlt className="text-xl lg:text-2xl" />
                   </a>
@@ -180,7 +178,7 @@ export default function Home() {
                   className={`cursor-pointer hover:text-fuchsia-700 transition ${
                     currentPage == "about"
                       ? " text-fuchsia-700"
-                      : " text-gray-100"
+                      : " text-gray-200"
                   }`}
                 >
                   About
@@ -191,7 +189,7 @@ export default function Home() {
                   className={`cursor-pointer hover:text-fuchsia-700 transition ${
                     currentPage == "resume"
                       ? "text-fuchsia-700 "
-                      : "text-gray-100"
+                      : "text-gray-200"
                   }`}
                 >
                   Resume
@@ -202,7 +200,7 @@ export default function Home() {
                   className={`cursor-pointer hover:text-fuchsia-700 ${
                     currentPage == "projects"
                       ? "text-fuchsia-700"
-                      : "text-gray-100"
+                      : "text-gray-200"
                   }`}
                 >
                   Projects
@@ -213,7 +211,7 @@ export default function Home() {
                   className={`cursor-pointer hover:text-fuchsia-700 ${
                     currentPage == "certifications"
                       ? "text-fuchsia-700"
-                      : "text-gray-100"
+                      : "text-gray-200"
                   }`}
                 >
                   Certifications
@@ -224,7 +222,7 @@ export default function Home() {
                   className={`cursor-pointer hover:text-fuchsia-700 ${
                     currentPage == "extracirriculars"
                       ? "text-fuchsia-700"
-                      : "text-gray-100"
+                      : "text-gray-200"
                   }`}
                 >
                   Extracirriculars
