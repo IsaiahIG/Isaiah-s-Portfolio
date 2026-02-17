@@ -16,7 +16,7 @@ export default function Projects() {
 
             {/* Content */}
             <div className="p-6">
-              <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
+              <p className="text-xs tracking-wide text-gray-300"> URL: https://isaiahig.com</p>
 
               <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
                 Isaiah's Portfolio
@@ -55,7 +55,6 @@ export default function Projects() {
             </div>
 
             <div className="p-6">
-              <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
 
               <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
                 Retriever Proposal Portal
@@ -90,14 +89,11 @@ export default function Projects() {
 
 
           <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
-            {/* Image area */}
             <div className="aspect-video bg-neutral-900">
               <img src="/tradelog.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
             </div>
 
-            {/* Content */}
             <div className="p-6">
-              <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
 
               <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
                 TradeLog
@@ -118,49 +114,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/yourname/yourrepo"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono  hover:bg-white/15"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </div>
-
-
-          <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
-            {/* Image area */}
-            <div className="aspect-video bg-neutral-900">
-              {/* Replace this placeholder with an image if you want */}
-              {/* <img src="/your-image.png" alt="Portfolio Website" className="h-full w-full object-cover" /> */}
-            </div>
-
-            {/* Content */}
-            <div className="p-6">
-              <p className="text-xs tracking-wide text-neutral-400">URL: yoursite.com</p>
-
-              <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
-                Adrian's Portfolio 
-              </h3>
-
-              <p className="pt-3 text-md leading-relaxed text-neutral-300">
-                 Freelance Portfolio website for a Friend
-              </p>
-
-              <div className="pt-6 flex items-center gap-4">
-                <a
-                  href="https://yoursite.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
-                >
-                  Comming Soon
-                </a>
-
-                <a
-                  href="https://github.com/yourname/yourrepo"
+                  href="https://github.com/IsaiahIG/TradeLog"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono  hover:bg-white/15"
@@ -174,7 +128,8 @@ export default function Projects() {
 
           
 
-          {/* Paste another card div here */}
+          
+
         </div>
       </div>
     </section>
