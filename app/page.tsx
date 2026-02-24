@@ -103,7 +103,7 @@ export default function Home() {
                   className="flex gap-3"
                 >
                   <span className="grid place-items-center size-9 lg:size-11 rounded-lg hover:bg-neutral-800  transition-all hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 ">
-                    <IoIosMail className="text-2xl lg:text-4xl " />
+                    <IoIosMail className="w-6 h-6 lg:w-8 lg:h-8 text-gray-100 shrink-0 " />
                   </span>
 
                   <div className="leading-tight min-w-0">
@@ -123,7 +123,7 @@ export default function Home() {
                   className="flex gap-3"
                 >
                   <span className="grid place-items-center  size-9 lg:size-11 rounded-lg hover:bg-neutral-800   transistion-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-neutral-800">
-                    <CiLocationOn className="text-2xl   lg:text-4xl" />
+                    <CiLocationOn className="w-6 h-6 lg:w-8 lg:h-8 text-gray-100 shrink-0" />
                   </span>
 
                   <div className="leading-tight min-w-0">
@@ -143,7 +143,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="p-2 rounded-md hover:bg-neutral-800 hover:shadow-2xl hover:shadow-neutral-800 hover:-translate-y-1 transition-all"
                   >
-                    <CiLinkedin className="size-7 lg:size-8" />
+                    <CiLinkedin className="w-6 h-6 lg:w-9 lg:h-9 text-gray-100 shrink-0" />
                   </a>
 
                   <a
@@ -152,7 +152,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="p-2 rounded-md hover:bg-neutral-800 hover:bg-neutral hover:shadow-2xl hover:shadow-neutral-800 transition-all hover:-translate-y-1"
                   >
-                    <FaGithub className="size-6 lg:size-7" />
+                    <FaGithub className="w-6 h-6 lg:w-8 lg:h-8 text-gray-100 shrink-0" />
                   </a>
 
                   <a
@@ -161,7 +161,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                     className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1   hover:shadow-neutral-800 transition-all"
                   >
-                    <FaRegFileAlt className="text-xl lg:text-2xl" />
+                    <FaRegFileAlt className="w-6 h-6 lg:w-7 lg:h-7 text-gray-100 shrink-0" />
                   </a>
                 </footer>
               </div>

@@ -64,7 +64,7 @@ export default function Resume() {
                               made updates that were easy for the team to
                               maintain.
                             </li>
-                            <li>Had weekly restrospective meetings with stakeholder</li>
+                            <li>Had weekly restrospective meetings with stakeholder. </li>
                           </ul>
                         </div>
                       </div>
@@ -94,7 +94,7 @@ export default function Resume() {
                             <li>
                               Developed the core frontend experience for a portal
                               connecting UMBC students with stakeholder-led
-                              project opportunities
+                              project opportunities.
                             </li>
                             <li>
                               Integrated the UI with backend APIs, adding error
@@ -110,7 +110,7 @@ export default function Resume() {
                               Created project’s MVP write-up, defining scope,
                               user stories, success criteria, and a created a
                               feature roadmap to align the team and guide sprint
-                              execution
+                              execution.
                             </li>
                             <li>
                               Collaborated in Agile sprints, working closely
@@ -212,7 +212,7 @@ export default function Resume() {
                             <p className="text-sm xl:text-base text-gray-300 pt-2 leading-relaxed wrap-break-word">
                               Data Structures • Algorithms • OOP • Software
                               engineering • Databases • OS • Computer
-                              architechture
+                              architechture.
                             </p>
                           </div>
                         </div>
