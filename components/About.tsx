@@ -1,14 +1,17 @@
 /** @format */
 
 "use client";
-
+import { SiWireshark } from "react-icons/si";
 import { Icon } from "@iconify/react";
+import { SiSplunk } from "react-icons/si";
+import { SiC } from "react-icons/si";
+
 
 const skills = [
   {
     name: "Python",
     icon: "logos:python",
-    hover: "hover:bg-yellow-500/20 hover:ring-yellow-400/40",
+    hover: "hover:bg-yellow-500/20 hover:ring-white/10",
   },
   {
     name: "C++",
@@ -17,7 +20,7 @@ const skills = [
   },
   {
     name: "C",
-    icon: "arcticons:clanguage",
+    reactIcon: SiC,
     hover: "hover:bg-neutral-800 hover:ring-white/10",
   },
   {
@@ -28,7 +31,7 @@ const skills = [
   {
     name: "React",
     icon: "logos:react",
-    hover: "hover:bg-yellow-500/20 hover:ring-yellow-400/40",
+    hover: "hover:bg-yellow-500/20 hover:ring/white/10",
   },
   {
     name: "Typescript",
@@ -68,25 +71,22 @@ const technologies = [
     icon: "devicon:bruno",
     hover: "hover:bg-neutral-800 hover:ring-white/10",
   },
-  {
-    name: "BeeKeeperStudio",
-    icon: "simple-icons:beekeeperstudio",
-    hover: "hover:bg-neutral-800 hover:ring-white/10",
-  },
+  
   {
     name: "Github",
-    icon: "simple-icons:github",
+    icon: "skill-icons:github-dark",
     hover: "hover:bg-neutral-800 hover:ring-white/10",
   },
   {
-    name: "WireShark",
-    icon: "simple-icons:wireshark",
-    hover: "hover:bg-neutral-800 hover:ring-white/10",
-  },
+  name: "WireShark",
+  reactIcon: SiWireshark,
+  hover: "hover:bg-neutral-800 hover:ring-white/10",
+},
   {
     name: "Splunk",
-    icon: "simple-icons:splunk",
-    hover: "hover:bg-neutral-800 hover:ring-white/10",
+    reactIcon: SiSplunk, 
+    hover: "hover:bg-neutral-800 hover:ring-white/10 bg-neutral-500",
+    
   },
   {
     name: "Jira",
@@ -107,14 +107,14 @@ export default function About() {
           <p className=" font-mono  text-gray-300">
             {" "}
             I'm Isaiah Ghansam, a student developer based in West Virginia, USA.
-            Passionate about programming and building scalable solutions to to
+            Passionate about programming and building scalable solutions to 
             solve real world problems.
           </p>
 
           <p className="pt font-mono   text-gray-300">
             {" "}
             I am currently enrolled in my final semester at a R1 college
-            institute known as the University of Maryland Baltimore County. I
+            institution known as the University of Maryland Baltimore County. I
             love expanding my knowledge in the field of computer science,
             learning new technologies and turning creative ideas into accessible
             tools.
@@ -128,18 +128,22 @@ export default function About() {
 
           <div className="flex-wrap gap-8 p-2.5 justify-center bg-black/40 rounded-2xl border border-neutral-700 shadow-2xl shadow-neutral-800 flex">
             {skills.map((s) => (
-              <span
-                key={s.name}
-                className={[
-                  "inline-flex size-12 items-center justify-center rounded-xl",
-                  "bg-neutral-800/50 ring-1 ring-white/10 transition",
-                  s.hover,
-                ].join(" ")}
-                title={s.name}
-              >
-                <Icon icon={s.icon} className="size-10" />
-              </span>
-            ))}
+  <span
+    key={s.name}
+    className={[
+      "inline-flex size-12 items-center justify-center rounded-xl",
+      "bg-neutral-800/50 ring-1 ring-white/10 transition",
+      s.hover,
+    ].join(" ")}
+    title={s.name}
+  >
+    {s.reactIcon ? (
+      <s.reactIcon className="size-7 text-blue-400" />
+    ) : (
+      <Icon icon={s.icon} className="size-10" />
+    )}
+  </span>
+))}
           </div>
           <div className="flex-col space-y-8">
             <h1 className="text-2xl text-fuchsia-700 tracking-widest font-mono">
@@ -148,17 +152,21 @@ export default function About() {
 
             <div className="flex-wrap gap-8 p-2.5 justify-center bg-black/40 rounded-2xl border border-neutral-700 shadow-2xl shadow-neutral-800 flex">
               {technologies.map((t) => (
-                <span
-                  key={t.name}
-                  className={[
-                    "inline-flex size-12 items-center justify-center rounded-xl bg-neutral-800/50 ring-1 ring-white/10 transition",
-                    t.hover,
-                  ].join(" ")}
-                  title={t.name}
-                >
-                  <Icon icon={t.icon} className="size-10" />
-                </span>
-              ))}
+  <span
+    key={t.name}
+    className={[
+      "inline-flex size-12 items-center justify-center rounded-xl bg-neutral-800/50 ring-1 ring-white/10 transition",
+      t.hover,
+    ].join(" ")}
+    title={t.name}
+  >
+    {t.reactIcon ? (
+      <t.reactIcon className="size-8 text-white" />
+    ) : (
+      <Icon icon={t.icon} className="size-10" />
+    )}
+  </span>
+))}
             </div>
           </div>
         </div>
