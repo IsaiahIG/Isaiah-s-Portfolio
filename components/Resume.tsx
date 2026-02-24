@@ -48,13 +48,12 @@ export default function Resume() {
                           </div>
 
                           <p className="text-xs sm:text-sm xl:text-base text-fuchsia-700 wrap-break-word">
-                            NorthBound LLC
+                            Northbound Tutors
                           </p>
 
                           <ul className="mt-3 space-y-2 text-sm xl:text-base text-gray-300 list-disc pl-5 leading-relaxed wrap-break-word">
                             <li>
-                              Helped fix front-end UI issues and bugs across
-                              pages to keep the site polished and consistent.
+                              Fixed front-end UI bugs across pages to keep the site clean, consistent, and easy to use.
                             </li>
                             <li>
                               Implemented automatic light/dark mode based on the
@@ -65,6 +64,7 @@ export default function Resume() {
                               made updates that were easy for the team to
                               maintain.
                             </li>
+                            <li>Had weekly restrospective meetings with stakeholder</li>
                           </ul>
                         </div>
                       </div>
@@ -108,7 +108,7 @@ export default function Resume() {
                             </li>
                             <li>
                               Created project’s MVP write-up, defining scope,
-                              user stories, success criteria, and a phased
+                              user stories, success criteria, and a created a
                               feature roadmap to align the team and guide sprint
                               execution
                             </li>

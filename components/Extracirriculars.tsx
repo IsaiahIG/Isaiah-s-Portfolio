@@ -94,7 +94,7 @@ export default function Extracirriculars() {
                 openModal({
                   title: "Fitness",
                   notes:
-                    "To ensure my physicaly health is well I  workout a minimum of  four  times a week. I started my fitness journey in freshman year of college and ever since I've  beeen consistently going.  ",
+                    "To ensure my physical health is well I  workout a minimum of  four  times a week. I started my fitness journey in freshman year of college and ever since I've  beeen consistently going.  ",
                 })
               }
               className="cursor-pointer shadow-2xl border-2 border-fuchsia-700 rounded-2xl transition-all hover:-translate-y-1 hover:bg-neutral-800 p-8 text-left focus:outline-none focus:ring-2 focus:ring-fuchsia-700"
