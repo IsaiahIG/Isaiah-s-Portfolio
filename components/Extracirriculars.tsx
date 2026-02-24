@@ -56,7 +56,7 @@ export default function Extracirriculars() {
                 openModal({
                   title: "Movies",
                   notes:
-                    "I enjoy watching movies with friends. I occasionally organize and host  movie nights for all of my friends. My all time favorite movie is Pirates of the Caribbean ",
+                    "I enjoy watching movies with friends. I occasionally organize and host  movie nights for all of my friends. My all time favorite movie is Pirates of the Caribbean. ",
                 })
               }
               className="cursor-pointer shadow-2xl border-2 border-fuchsia-700 rounded-2xl transition-all hover:-translate-y-1 hover:bg-neutral-800 p-8 text-left focus:outline-none focus:ring-2 focus:ring-fuchsia-700"
@@ -113,7 +113,7 @@ export default function Extracirriculars() {
                 openModal({
                   title: "Boxing",
                   notes:
-                    "Its been a year since I found my passion in boxing. I am currently an orthodox boxer meaning left hand is my jab. At my current skill level I'm able to teach others and have weekly meetups",
+                    "Its been a year since I found my passion in boxing. I am currently an orthodox boxer meaning left hand is my jab. At my current skill level I'm able to teach others and have weekly meetups.",
                 })
               }
               className="cursor-pointer shadow-2xl border-2 border-fuchsia-700 rounded-2xl transition-all hover:-translate-y-1 hover:bg-neutral-800 p-8 text-left focus:outline-none focus:ring-2 focus:ring-fuchsia-700"
