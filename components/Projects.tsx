@@ -87,6 +87,9 @@ export default function Projects() {
           </div>
 
 
+          
+
+
 
           <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             <div className="aspect-video bg-neutral-900">

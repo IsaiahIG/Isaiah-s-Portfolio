@@ -76,7 +76,7 @@ export default function Home() {
               id="mobile-profile"
               className={`${mobileProfileOpen ? "block" : "hidden"} lg:block`}
             >
-              <div className="bg-neutral-900 p-7 rounded-3xl shadow-2xl 2xl:space-y-10 px-5 flex flex-col gap-6 h-full">
+              <div className="bg-neutral-900 p-7 rounded-3xl  2xl:space-y-10 px-5 flex flex-col gap-6 h-full">
                 <div className="hidden lg:flex justify-center">
                   <img
                     className="rounded-2xl font-w-40 md:w-40 2xl:w-55 lg:w-48 backdrop-opacity-100"
