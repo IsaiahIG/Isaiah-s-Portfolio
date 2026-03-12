@@ -8,10 +8,10 @@ export default function Projects() {
           <h1 className="text-4xl  tracking-widest  font-mono  text-fuchsia-700 ">Projects</h1>
         </div>
 
-        <div className="flex flex-wrap gap-8">
-          <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
+           <div className="flex flex-wrap gap-8">
+            <div className="w-full  md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             <div className="aspect-video bg-neutral-900">
-              <img src="Portfolio.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
+              <img src="Portfolio.png" alt="Portfolio Website" className="h-full w-full object-cover"/> 
             </div>
 
             {/* Content */}
@@ -22,7 +22,7 @@ export default function Projects() {
                 Isaiah's Portfolio
               </h3>
 
-              <p className="mt-3 text-lg leading-relaxed text-neutral-300">
+              <p className="mt-3 text-md font-mono leading-relaxed text-neutral-300">
                 My personal portfolio showcasing my work, skills, and experience.
               </p>
 
@@ -46,10 +46,10 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+            </div>
 
 
-          <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
+          <div className="w-full md:w-[calc(50%-16px)]  overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             <div className="aspect-video bg-neutral-900">
                <img src="rpp.png" alt="Portfolio Website" className="h-full w-full object-fill " /> 
             </div>
@@ -60,8 +60,8 @@ export default function Projects() {
                 Retriever Proposal Portal
               </h3>
 
-              <p className="pt-3 text-md leading-relaxed text-neutral-300">
-                 UMBC stakeholders  reach out to students via this portal and post their software  requests. simulating software engineering students can now form groups under a selected scrum master and work on said request .
+              <p className="pt-3 text-md leading-relaxed font-mono text-neutral-300">
+                 UMBC stakeholders  reach out to students via this portal and post their software  requests. 
               </p>
 
               <div className="pt-6 flex items-center gap-4">
@@ -91,19 +91,19 @@ export default function Projects() {
 
 
 
-          <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
+          <div className="w-full   md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             <div className="aspect-video bg-neutral-900">
-              <img src="/tradelog.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
+              <img src="/VTproject.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
             </div>
 
             <div className="p-6">
 
               <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
-                TradeLog
+                Threat Atlas
               </h3>
 
-              <p className="pt-3 text-md leading-relaxed text-neutral-300">
-                 A application designed to save user Market Trades for future use.
+              <p className="pt-3 text-md leading-relaxed font-mono text-neutral-300">
+                 Analyse suspicious files, domains, IPs and URLs to detect malware and other breaches
               </p>
 
               <div className="pt-6 flex items-center gap-4">
@@ -117,7 +117,7 @@ export default function Projects() {
                 </a>
 
                 <a
-                  href="https://github.com/IsaiahIG/TradeLog"
+                  href="https://github.com/IsaiahIG/ThreatAtlas"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono  hover:bg-white/15"
@@ -127,6 +127,54 @@ export default function Projects() {
               </div>
             </div>
           </div>
+
+          <div className="w-full md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
+            <div className="aspect-video bg-neutral-900">
+
+                            <video
+                              src="/polaris.mp4"
+                              autoPlay
+                              muted
+                              loop
+                              playsInline
+                              className="w-full h-full object-cover "
+                            >
+                              Your browser does not support the video tag.
+                            </video>
+            </div>
+
+            <div className="p-6">
+
+              <h3 className="pt-2 text-3xl font-bold font-mono text-fuchsia-700">
+                Polaris
+              </h3>
+
+              <p className="pt-3 text-md  font-mono leading-relaxed text-neutral-300">
+                 A application for Northbound's mentorship program
+              </p>
+
+              <div className="pt-6 flex items-center gap-4">
+                <a
+                  href="https://www.northboundtutoring.com/polaris"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
+                >
+                    Live Site
+                </a>
+
+                
+                
+              </div>
+            </div>
+          </div>
+
+
+          
+
+
+
+          
 
 
           

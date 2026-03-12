@@ -53,18 +53,15 @@ export default function Resume() {
 
                           <ul className="mt-3 space-y-2 text-sm xl:text-base text-gray-300 list-disc pl-5 leading-relaxed wrap-break-word">
                             <li>
-                              Fixed front-end UI bugs across pages to keep the site clean, consistent, and easy to use.
+                              Design advisor for software edits and facilitated implementation.
                             </li>
                             <li>
-                              Implemented automatic light/dark mode based on the
-                              user’s system preference.
+                              Built polaris mentorship program page, assignment, login, and database components for tutoring portal, adjusted to fit owner's needs.
                             </li>
                             <li>
-                              Worked in a React + TypeScript + Tailwind setup and
-                              made updates that were easy for the team to
-                              maintain.
+                              Made updates in a React, Typescript, Tailwind setup and met weekly with owner to review issues, confirm changes, and plan the next updates.
                             </li>
-                            <li>Had weekly restrospective meetings with stakeholder. </li>
+                            <li>The above resulted in quicker deployment leading to 100% faster customer conversions and easy maintenance</li>
                           </ul>
                         </div>
                       </div>
@@ -79,7 +76,7 @@ export default function Resume() {
                         <div className="px-3 min-w-0">
                           <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-baseline sm:justify-between gap-x-4 gap-y-1 min-w-0">
                             <h1 className="text-base sm:text-lg xl:text-xl font-semibold text-gray-100 leading-tight min-w-0 wrap-break-word">
-                              Frontend Developer
+                              UI Designer & System Architect
                             </h1>
                             <p className="text-xs sm:text-sm xl:text-base font-mono text-fuchsia-700 whitespace-nowrap shrink-0">
                               Aug 2025 — Dec 2026

@@ -156,7 +156,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="Isaiahs_Updated_resume.pdf"
+                    href="IIGRESUME.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1   hover:shadow-neutral-800 transition-all"
