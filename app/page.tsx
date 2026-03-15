@@ -36,10 +36,10 @@ export default function Home() {
   }
 
   return (
-    <main className="w-full overflow-x-hidden bg-neutral-950 min-h-screen pb-24 lg:pb-0">
-      <div className="mx-auto max-w-7xl 2xl:max-w-7xl px-4 2xl:px-1 lg:px-10 pt-12 pb-14 flex flex-col 2xl:flex-row lg:flex-row gap-10 2xl:space-x-55 lg:gap-5 py-1 2xl:items-stretch lg:items-stretch">
-        <aside className="lg:w-69 2xl:w-30 shrink-0">
-          <div className="lg:fixed 2xl:fixed 2xl:w-80 lg:w-67 bg-neutral-900 border-white/30 border rounded-3xl lg:h-147 2xl:h-292 overflow-hidden">
+    <main className="w-full overflow-x-hidden bg-neutral-950 min-h-screen  pb-24 lg:pb-0">
+      <div className="mx-auto max-w-7xl lg:max-w-322 2xl:max-w-350 px-4 2xl:px-1 lg:px-11 pt-12 pb-14 flex flex-col lg:flex-row 2xl:flex-row gap-10 lg:gap-7 2xl:gap-8 py-1 items-center lg:items-start">
+        <aside className="w-full lg:w-67 2xl:w-[320px] shrink-0">
+          <div className="w-full lg:fixed lg:top-12 lg:w-67 2xl:w-[320px] bg-neutral-900 border-white/30 border rounded-3xl overflow-hidden lg:h-147 2xl:h-155 2xl:p-2">
             <div className="lg:hidden relative px-4 py-3">
               <div className="flex items-center gap-3 pr-12">
                 <img
@@ -76,10 +76,10 @@ export default function Home() {
               id="mobile-profile"
               className={`${mobileProfileOpen ? "block" : "hidden"} lg:block`}
             >
-              <div className="bg-neutral-900 p-7 rounded-3xl  2xl:space-y-10 px-5 flex flex-col gap-6 h-full">
+              <div className="bg-neutral-900 p-7 rounded-3xl px-5 flex flex-col gap-6 h-full">
                 <div className="hidden lg:flex justify-center">
                   <img
-                    className="rounded-2xl font-w-40 md:w-40 2xl:w-55 lg:w-48 backdrop-opacity-100"
+                    className="rounded-2xl font-w-40 md:w-40 lg:w-48 2xl:w-48 backdrop-opacity-100"
                     src="Profilepic.jpg"
                     alt="a photo of me"
                   />
@@ -89,7 +89,7 @@ export default function Home() {
                   Isaiah Ghansam
                 </h1>
 
-                <p className="hidden lg:block text-md  text-gray-200 text-center p-2 tracking-widest rounded-2xl shadow-2xl border-2 border-neutral-800 bg-fuchsia-800">
+                <p className="hidden lg:block text-md text-gray-200 text-center p-2 tracking-widest rounded-2xl shadow-2xl border-2 border-neutral-800 bg-fuchsia-800">
                   Software Developer
                 </p>
 
@@ -102,8 +102,8 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex gap-3"
                 >
-                  <span className="grid place-items-center size-9 lg:size-11 rounded-lg hover:bg-neutral-800  transition-all hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 ">
-                    <IoIosMail className="w-6 h-6 lg:w-8 lg:h-8 text-gray-100 shrink-0 " />
+                  <span className="grid place-items-center size-9 lg:size-11 rounded-lg hover:bg-neutral-800 transition-all hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800">
+                    <IoIosMail className="w-6 h-6 lg:w-8 lg:h-8 text-gray-100 shrink-0" />
                   </span>
 
                   <div className="leading-tight min-w-0">
@@ -122,7 +122,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="flex gap-3"
                 >
-                  <span className="grid place-items-center  size-9 lg:size-11 rounded-lg hover:bg-neutral-800   transistion-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-neutral-800">
+                  <span className="grid place-items-center size-9 lg:size-11 rounded-lg hover:bg-neutral-800 transistion-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-neutral-800">
                     <CiLocationOn className="w-6 h-6 lg:w-8 lg:h-8 text-gray-100 shrink-0" />
                   </span>
 
@@ -130,13 +130,15 @@ export default function Home() {
                     <p className="text-xs uppercase tracking-widest text-fuchsia-700 font-bold">
                       Location
                     </p>
-                    <p className="text-sm text-gray-200 tracking-widest">West Virginia, US</p>
+                    <p className="text-sm text-gray-200 tracking-widest">
+                      West Virginia, US
+                    </p>
                   </div>
                 </a>
 
                 <div className="h-px w-full bg-neutral-700"></div>
 
-                <footer className="flex justify-between">
+                <footer className="flex justify-between mt-auto">
                   <a
                     href="https://www.linkedin.com/in/isaiah-ghansam-5a97832b4/"
                     target="_blank"
@@ -159,7 +161,7 @@ export default function Home() {
                     href="IIGRESUME.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1   hover:shadow-neutral-800 transition-all"
+                    className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 transition-all"
                   >
                     <FaRegFileAlt className="w-6 h-6 lg:w-7 lg:h-7 text-gray-100 shrink-0" />
                   </a>
@@ -169,8 +171,8 @@ export default function Home() {
           </div>
         </aside>
 
-        <section className="flex-1 min-w-0">
-          <div className="relative min-w-0 rounded-3xl border border-white/30 bg-neutral-900 shadow-2xl p-8 pb-28 lg:pb-8">
+        <section className="w-full flex-1 min-w-0">
+          <div className="relative min-w-0 rounded-3xl border border-white/30 bg-neutral-900 shadow-2xl p-8 pb-28 lg:pb-8 lg:min-h-190">
             <nav className="absolute right-0 top-0 hidden lg:block">
               <div className="flex items-center gap-3 sm:gap-6 overflow-x-auto whitespace-nowrap rounded-bl-3xl rounded-tr-3xl overflow-hidden bg-neutral-700/20 border border-neutral-700 px-5 py-4 text-sm font-semibold">
                 <button
