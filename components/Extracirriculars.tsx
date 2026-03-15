@@ -42,9 +42,9 @@ export default function Extracirriculars() {
   }, [modalOpen]);
 
   return (
-    <div className="bg-neutral-900 min-h-screen px-5">
+    <div className="bg-neutral-900 lg:min-h-screen 2xl:min-h-290  px-5">
       <div className="max-w-7xl 2xl:max-w-screen-2xl mx-auto">
-        <div className="py-6 space-y-10">
+        <div className="py-6 space-y-10 2xl:space-y-25 ">
           <h1 className="text-3xl sm:text-4xl font-mono text-fuchsia-700 tracking-widest">
             Outside Of Work
           </h1>

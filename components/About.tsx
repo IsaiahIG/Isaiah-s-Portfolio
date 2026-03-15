@@ -97,8 +97,8 @@ const technologies = [
 
 export default function About() {
   return (
-    <div className="bg-neutral-900 flex-col p-3  lg:min-h-screen  flex">
-      <div className="bg-neutral-900  space-y-12">
+    <div className="bg-neutral-900 flex-col p-3  lg:min-h-screen   2xl:min-h-287 flex">
+      <div className="bg-neutral-900  space-y-12 2xl:space-y-25">
         <div className="space-y-10">
           <h1 className="text-4xl leading-relaxed text-fuchsia-700  tracking-widest font-mono ">
             Who Am I?
