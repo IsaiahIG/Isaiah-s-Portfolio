@@ -379,7 +379,7 @@ export default function Home() {
                       : "text-gray-200"
                   }`}
                 >
-                  Resume
+                  Experience
                 </button>
 
                 <button
@@ -441,7 +441,7 @@ export default function Home() {
                 currentPage === "resume" ? "text-fuchsia-700" : "text-gray-100"
               }`}
             >
-              Resume
+              Experience
             </button>
 
             <button

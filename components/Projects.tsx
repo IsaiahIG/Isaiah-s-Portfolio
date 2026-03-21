@@ -51,7 +51,7 @@ export default function Projects() {
 
           <div className="w-full md:w-[calc(50%-16px)]  overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             <div className="aspect-video bg-neutral-900">
-               <img src="rpp.png" alt="Portfolio Website" className="h-full w-full object-fill " /> 
+               <img src="rpp.png" alt="RPP Image" className="h-full w-full object-fill " /> 
             </div>
 
             <div className="p-6">
@@ -93,7 +93,7 @@ export default function Projects() {
 
           <div className="w-full   md:w-[calc(50%-16px)] overflow-hidden rounded-2xl border border-white/10 bg-neutral-800/40 shadow-lg transition-all hover:-translate-y-1 hover:border-white/20 hover:shadow-xl hover:shadow-fuchsia-700">
             <div className="aspect-video bg-neutral-900">
-              <img src="/VTproject.png" alt="Portfolio Website" className="h-full w-full object-cover" /> 
+              <img src="/VTproject.png" alt="Threatatlas Img" className="h-full w-full object-cover" /> 
             </div>
 
             <div className="p-6">
@@ -108,12 +108,12 @@ export default function Projects() {
 
               <div className="pt-6 flex items-center gap-4">
                 <a
-                  href="https://yoursite.com"
+                  href="https://threatatlas-ig.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
                 >
-                    Comming Soon
+                    Live site 
                 </a>
 
                 <a
