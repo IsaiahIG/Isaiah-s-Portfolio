@@ -108,12 +108,12 @@ export default function Projects() {
 
               <div className="pt-6 flex items-center gap-4">
                 <a
-                  href="https://threatatlas-ig.vercel.app/"
+                  href="https://drive.google.com/file/d/1TD6BxKFoYBV8V_e5GFduuJNj-ehEGm_H/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl bg-white/5 px-5 py-3 text-sm font-bold text-fuchsia-700 transition font-mono hover:bg-white/15"
                 >
-                    Live site 
+                    Demo 
                 </a>
 
                 <a
