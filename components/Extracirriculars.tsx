@@ -132,7 +132,7 @@ export default function Extracirriculars() {
                 openModal({
                   title: "Clubs",
                   notes:
-                    "I was the treasurer of the Caribbean Student Union at UMBC from Aug - December 2024. I then transistioned to Public Relations Role from Jan - May 2025. During my term as treasuerer I hosted fundraisers, attended weekly meetings and calculated fundings and budget requirements for events. During my term as public relations I attended weekly meeting  and reached out to different organizations for collabarations and the promotions of events while getting student feedback.",
+                    "I was the treasurer of the Caribbean Student Union at UMBC from Aug - December 2024. I then transitioned to Public Relations Role from Jan - May 2025. During my term as treasurer I hosted fundraisers, attended weekly meetings and calculated fundings and budget requirements for events. During my term as public relations I attended weekly meeting  and reached out to different organizations for collabarations and the promotions of events while getting student feedback.",
                 })
               }
               className="cursor-pointer shadow-2xl border-2 border-fuchsia-700 rounded-2xl transition-all hover:-translate-y-1 hover:bg-neutral-800 p-8 text-left focus:outline-none focus:ring-2 focus:ring-fuchsia-700"

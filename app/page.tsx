@@ -47,7 +47,7 @@ export default function Home() {
               <div className="flex items-center gap-3 pr-12">
                 <img
                   className="size-12 rounded-2xl border border-neutral-700 object-cover"
-                  src="Profilepic.jpg"
+                  src="isaiahpicc.jpg"
                   alt="a photo of me"
                 />
                 <div className="min-w-0">
@@ -144,7 +144,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="IIGRESUME.pdf"
+                    href="Isaiah_sGRes2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 transition-all"
@@ -245,7 +245,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="IIGRESUME.pdf"
+                    href="Isaiah_sGRes2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 transition-all"
@@ -265,7 +265,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <img
                     className="rounded-2xl w-40 xl:w-48 object-cover"
-                    src="Profilepic.jpg"
+                    src="isaiahpicc.jpg"
                     alt="a photo of me"
                   />
                 </div>
@@ -342,7 +342,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="IIGRESUME.pdf"
+                    href="Isaiah_sGRes2.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-md p-2 hover:bg-neutral-800 hover:shadow-2xl hover:-translate-y-1 hover:shadow-neutral-800 transition-all"

@@ -11,7 +11,7 @@ const skills = [
   {
     name: "Python",
     icon: "logos:python",
-    hover: "hover:bg-yellow-500/20 hover:ring-white/10",
+    hover: "hover:bg-neutral-800 hover:ring-white/10",
   },
   {
     name: "C++",
@@ -31,7 +31,7 @@ const skills = [
   {
     name: "React",
     icon: "logos:react",
-    hover: "hover:bg-yellow-500/20 hover:ring/white/10",
+    hover: "hover:bg-neutral-800 hover:ring/white/10",
   },
   {
     name: "Typescript",
@@ -48,6 +48,14 @@ const skills = [
     icon: "devicon:css3",
     hover: "hover:bg-neutral-800 hover:ring-white/10",
   },
+
+  {
+    name: "SQL",
+    icon: "tabler:sql",
+    hover: "hover:bg-neutral-800 hover:ring-white/10",
+
+
+  }
 ];
 
 const technologies = [
